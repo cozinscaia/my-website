@@ -1,0 +1,131 @@
+/* Общие стили */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fef5f8; /* Пастельно-розовый фон */
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align: center;
+}
+
+/* Стили для навигационного меню */
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ffd1dc; /* Розовая полоса меню */
+    border-bottom: 2px solid #ffb6c1; /* Нежный акцент */
+    width: 100%; /* Занимает всю ширину страницы */
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: #ff9bb3; /* Эффект при наведении */
+}
+
+/* Стили для изображения */
+.profile-pic {
+    width: 400px;
+    height: auto;
+
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Лёгкая тень */
+}
+
+/* Основной раздел */
+h1 {
+    color: #d7385e;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #ff6f91;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    margin: 10px 20px;
+}
+
+/* Кнопка "Читать далее" */
+.read-more {
+    background-color: #ff8abf;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: #ff5d95;
+    transform: scale(1.1); /* Увеличение кнопки при наведении */
+}
+
+/* Списки */
+ul, ol {
+    text-align: left;
+    margin: 20px auto;
+    width: 60%;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Таблица */
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ffb6c1;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #ffd1dc;
+    color: white;
+}
+
+table td {
+    background-color: #fff0f5;
+}
+
+/* Футер */
+footer {
+    background-color: #ffccd5;
+    padding: 10px;
+    color: #333;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #d7385e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
